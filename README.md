@@ -1,2 +1,2 @@
 # breakout
-simple javascript game
+Use the mouse or arrow keys to move the paddle.
