@@ -103,7 +103,7 @@ function draw(){
   }
   else if(y + dy > canvas.height-ballRadius){
     if(x > paddleX && x < paddleX + paddleWidth){
-      if(Math.abs(dy) < 10)
+      if(Math.abs(dy) < brickHeight-1)
         dy = -++dy;
       else
         dy = -dy;
